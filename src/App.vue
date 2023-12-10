@@ -1,11 +1,15 @@
 <script setup>
-// import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-<div>
-  <el-button type="success">Success</el-button>
-</div>
+<router-view></router-view>
+<!-- <div class="test">
+  test sass
+</div> -->
 </template>
 
-
+<style scoped lang="scss">
+.test{
+  color: $priceColor;
+}
+</style>
