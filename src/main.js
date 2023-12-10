@@ -11,7 +11,6 @@ import '@/styles/common.scss'
 
 import {getCategroy} from '@/apis/testAPI';
 getCategroy().then(res => {
-    console.log(res);
 })
 
 const app = createApp(App)
