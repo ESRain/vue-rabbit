@@ -1,5 +1,3 @@
-
-
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
@@ -8,10 +6,6 @@ import router from './router'
 
 //引入初始化样式文件
 import '@/styles/common.scss'
-
-import {getCategroy} from '@/apis/testAPI';
-getCategroy().then(res => {
-})
 
 const app = createApp(App)
 

@@ -1,8 +1,8 @@
 <script setup>
 import {useCategoryStore} from '@/stores/category';
 //使用pinia数据
+// layout的index通过store发起请求，子组件通过store拿到请求后的数据
 const CategoryStore = useCategoryStore()
-
 </script>
 
 <template>
