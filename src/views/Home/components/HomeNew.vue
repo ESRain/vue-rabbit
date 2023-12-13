@@ -11,7 +11,7 @@ const getNewList = async () => {
 }
 onMounted( () =>{
   getNewList()
-  console.log(newList.value,'HomeNew');
+  console.log(newList.value,'HomeNew'); 
 })
 </script>
 
